@@ -1,0 +1,11 @@
+channels:
+  - defaults
+dependencies:
+  - matplotlib
+  - scikit-image
+  - pandas
+  - pip
+  - cython
+  - pip:
+      - sphinx-gallery
+      - https://github.com/scikit-learn/scikit-learn/archive/master.zip

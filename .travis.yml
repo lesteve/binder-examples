@@ -1,0 +1,12 @@
+language: minimal
+
+install:
+  - echo 'nothing to install'
+
+script:
+  - bash ci/update-submodule.sh .scikit-learn master
+  - bash ci/update-submodule.sh .scikit-learn 0.21.X
+
+env:
+  global:
+    secure: "vHBFrOaz+nCgSrH/TTrqjb3VC95Ca/jst8edf0CCoUrzOc4CgweobOQi1Famd1ERNLKJCONYMjKk2VB/JznXvRZT6Blcuh4Wc6stkFkzUMe8vL6R2DZvORCgDpoqsO4ydYaMla5MINv4YenkymENHX0la82BdY1ah8CH/4oY/Lqwfvro3h6UGBM5JhmKLdS5Gsl7nWqUw4ahyTDy3L9QcuvrZhFSHjwt4xj2+xmgQBqdGiyxscp1LBd2Mpsb5XaqM5kZKvL71XgxOrrDLcVlKP/ZPXcPTvwi/OLMRlzuqiBZ2yY7s9shIWN6emdcZszVaEYFo6u737GgCcXOfJVz0GGp7Z6Z9JHymgSp7ev/OhDhW5CboHtKCs3Z6l9836vOe8v4QB9T+B+mSUhPbAGgYkmj+Zk3uoFy1lU+RsvDtK/QEoLfcNrnATXlSBKUN0hcwsSUtGq017BxBfzF60W1ryXmK0J/yjIpG8Nye/j7xz5nPLliS3izmA8osk53M0PrEHi2N4piZci0I+gXhAHDIRy+335unMX/AcFQgAJjmX+LyZj9gXcGL9858njuTVev/N2lHqSatXPYDJy5kLohn7iX+4qwrWBcFFm76p6FgCcXndJjAfhWEVOn655sd8oGg9AU+JFYnbPj4gk9MO6hxEYSASiuNDG2W2770w8S5CE="
