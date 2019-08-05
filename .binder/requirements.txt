@@ -1,0 +1,6 @@
+matplotlib
+scikit-image
+pandas
+sphinx-gallery
+scikit-learn
+
