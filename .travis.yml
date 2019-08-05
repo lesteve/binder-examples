@@ -4,8 +4,8 @@ install:
   - echo 'nothing to install'
 
 script:
-  - bash ci/update-submodule.sh .scikit-learn master
-  - bash ci/update-submodule.sh .scikit-learn 0.21.X
+  - bash .ci/update-submodule.sh .scikit-learn master
+  - bash .ci/update-submodule.sh .scikit-learn 0.21.X
 
 env:
   global:
